@@ -12,6 +12,22 @@
 
 * added reset button ([5339525](https://github.com/awais-ahmad-ili/release-automation-poc/commit/5339525afc7b0c0ff5004c2967a3572f275df619))
 
+## [1.1.0](https://github.com/awais-ahmad-ili/release-please-poc/compare/v1.0.1...v1.1.0) (2025-09-01)
+
+
+### Features
+
+* added multiple manifests ([5752a00](https://github.com/awais-ahmad-ili/release-please-poc/commit/5752a00d95285898d9de424fe31d47281d4ba84b))
+* experiment 1 ([06a7503](https://github.com/awais-ahmad-ili/release-please-poc/commit/06a75032f60e48819f62803f65fd34d8aec1b815))
+* single config ([5ba9798](https://github.com/awais-ahmad-ili/release-please-poc/commit/5ba97987b4bb08b9bcf6e70f8623c81c3d8ba58a))
+
+
+### Bug Fixes
+
+* test dev ([db67366](https://github.com/awais-ahmad-ili/release-please-poc/commit/db6736665253e31818fa33ebbb02d85aa13f4c4b))
+* update config ([57023c6](https://github.com/awais-ahmad-ili/release-please-poc/commit/57023c6c4f4620f8d7ff8623e7f5f9219161d7f7))
+* update workflow ([07457a7](https://github.com/awais-ahmad-ili/release-please-poc/commit/07457a7f58af688f0779b275570771acc2cbb927))
+
 ## [1.0.1](https://github.com/awais-ahmad-ili/release-please-poc/compare/v1.0.0...v1.0.1) (2025-09-01)
 
 

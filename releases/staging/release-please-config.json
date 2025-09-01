@@ -2,15 +2,15 @@
   "packages": {
     "releases/staging": {
       "release-type": "node",
-      "prerelease": true,
-      "prerelease-type": "sta",
       "changelog-path": "releases/staging/CHANGELOG.md",
       "include-component-in-tag": false
     }
   },
   "branches": [
     {
-      "branch": "staging"
+      "branch": "staging",
+      "prerelease": true,
+      "prerelease-type": "sta"
     }
   ]
 }

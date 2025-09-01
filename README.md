@@ -127,6 +127,7 @@ git commit -m "BREAKING CHANGE: remove deprecated API"
 - Generates changelog and release notes
 - Creates GitHub release and npm package
 - Optional GitHub Pages deployment
+  asdasd
 
 ## 📋 GitHub Actions Workflows
 

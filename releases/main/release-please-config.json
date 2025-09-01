@@ -3,9 +3,8 @@
     ".": {
       "release-type": "simple",
       "changelog-path": "releases/main/CHANGELOG.md",
-      "include-component-in-tag": true,
       "package-name": "main",
-      "version-file": "releases/main/package.json"
+      "component": "main"
     }
   },
   "branches": [

@@ -76,8 +76,6 @@ This project enforces [Conventional Commits](https://www.conventionalcommits.org
 [optional footer(s)]
 ```
 
-asdasd
-
 ### Commit Types
 
 - `feat` - New features (minor version)

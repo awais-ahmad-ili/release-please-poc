@@ -1,0 +1,16 @@
+{
+  "packages": {
+    "releases/dev": {
+      "release-type": "node",
+      "prerelease": true,
+      "prerelease-type": "dev",
+      "changelog-path": "releases/dev/CHANGELOG.md",
+      "include-component-in-tag": false
+    }
+  },
+  "branches": [
+    {
+      "branch": "dev"
+    }
+  ]
+}

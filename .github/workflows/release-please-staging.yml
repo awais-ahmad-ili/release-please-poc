@@ -26,6 +26,6 @@ jobs:
         uses: googleapis/release-please-action@v4
         with:
           target-branch: staging
-          config-file: release-please-config.json
+          config-file: releases/staging/release-please-config.json
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
-          manifest-file: .release-please-manifest.json
+          manifest-file: releases/staging/.release-please-manifest.json

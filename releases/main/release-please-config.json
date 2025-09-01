@@ -1,0 +1,14 @@
+{
+  "packages": {
+    "releases/main": {
+      "release-type": "node",
+      "changelog-path": "releases/main/CHANGELOG.md",
+      "include-component-in-tag": false
+    }
+  },
+  "branches": [
+    {
+      "branch": "main"
+    }
+  ]
+}

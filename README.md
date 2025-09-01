@@ -1,6 +1,7 @@
 # 🚀 Release Automation POC
 
 A React TypeScript application demonstrating automated CI/CD pipeline with semantic versioning and release automation.
+1111111111111111111111
 
 ## ✨ Features
 
@@ -65,6 +66,7 @@ npm run commit       # Interactive conventional commit
 ## 📝 Conventional Commits
 
 This project enforces [Conventional Commits](https://www.conventionalcommits.org/) for automated versioning and releases.
+aaaaaaaaaaaaa
 
 ### Commit Format
 
@@ -127,7 +129,6 @@ git commit -m "BREAKING CHANGE: remove deprecated API"
 - Generates changelog and release notes
 - Creates GitHub release and npm package
 - Optional GitHub Pages deployment
-  asdasd
 
 ## 📋 GitHub Actions Workflows
 

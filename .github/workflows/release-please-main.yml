@@ -25,6 +25,7 @@ jobs:
         id: rp
         uses: googleapis/release-please-action@v4
         with:
-          config-file: release-please-config.json
+          target-branch: main
+          config-file: releases/main/release-please-config.json
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
-          manifest-file: .release-please-manifest.json
+          manifest-file: releases/main/.release-please-manifest.json

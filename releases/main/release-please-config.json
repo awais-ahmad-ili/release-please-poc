@@ -1,0 +1,15 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "changelog-path": "releases/main/CHANGELOG.md",
+      "package-name": "main",
+      "component": "main"
+    }
+  },
+  "branches": [
+    {
+      "branch": "main"
+    }
+  ]
+}

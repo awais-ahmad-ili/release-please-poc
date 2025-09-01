@@ -8,7 +8,9 @@
   },
   "branches": [
     {
-      "branch": "main"
+      "branch": "staging",
+      "prerelease": true,
+      "prerelease-type": "sta"
     }
   ]
 }

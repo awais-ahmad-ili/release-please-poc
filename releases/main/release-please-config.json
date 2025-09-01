@@ -1,9 +1,9 @@
 {
   "packages": {
-    ".": {
+    "main": {
       "release-type": "simple",
       "changelog-path": "releases/main/CHANGELOG.md",
-      "include-component-in-tag": false,
+      "include-component-in-tag": true,
       "version-file": "releases/main/package.json"
     }
   },

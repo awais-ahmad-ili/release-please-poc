@@ -3,9 +3,7 @@
     ".": {
       "release-type": "simple",
       "changelog-path": "releases/dev/CHANGELOG.md",
-      "include-component-in-tag": false,
-      "prerelease": true,
-      "prerelease-type": "dev"
+      "include-component-in-tag": true
     }
   },
   "branches": [

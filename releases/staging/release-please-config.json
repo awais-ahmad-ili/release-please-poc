@@ -1,11 +1,12 @@
 {
   "packages": {
     ".": {
-      "release-type": "node",
+      "release-type": "simple",
       "changelog-path": "releases/staging/CHANGELOG.md",
       "include-component-in-tag": false,
       "prerelease": true,
-      "prerelease-type": "sta"
+      "prerelease-type": "sta",
+      "version-file": "releases/staging/package.json"
     }
   },
   "branches": [

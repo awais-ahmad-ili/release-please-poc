@@ -1,8 +1,8 @@
 {
   "packages": {
-    "releases/main": {
+    "main": {
       "release-type": "node",
-      "changelog-path": "releases/main/CHANGELOG.md",
+      "changelog-path": "CHANGELOG.md",
       "include-component-in-tag": false
     }
   },

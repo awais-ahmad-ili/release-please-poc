@@ -20,5 +20,7 @@
       "prerelease": true,
       "prerelease-type": "dev"
     }
-  ]
+  ],
+  "separate-pull-requests": true,
+  "commit-search-depth": 1000
 }

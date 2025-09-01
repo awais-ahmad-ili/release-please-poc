@@ -5,7 +5,8 @@
       "changelog-path": "releases/dev/CHANGELOG.md",
       "include-component-in-tag": false,
       "prerelease": true,
-      "prerelease-type": "dev"
+      "prerelease-type": "dev",
+      "version-file": "releases/dev/package.json"
     }
   },
   "branches": [

@@ -8,7 +8,9 @@
   },
   "branches": [
     {
-      "branch": "main"
+      "branch": "dev",
+      "prerelease": true,
+      "prerelease-type": "dev"
     }
   ]
 }

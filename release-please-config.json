@@ -1,9 +1,21 @@
 {
   "packages": {
-    ".": {
+    "releases/main": {
       "release-type": "node",
       "changelog-path": "CHANGELOG.md",
       "include-component-in-tag": false
+    },
+    "releases/staging": {
+      "release-type": "node",
+      "include-component-in-tag": false,
+      "prerelease": true,
+      "prerelease-type": "sta"
+    },
+    "releases/dev": {
+      "release-type": "node",
+      "include-component-in-tag": false,
+      "prerelease": true,
+      "prerelease-type": "dev"
     }
   },
   "branches": [
@@ -11,14 +23,10 @@
       "branch": "main"
     },
     {
-      "branch": "staging",
-      "prerelease": true,
-      "prerelease-type": "sta"
+      "branch": "staging"
     },
     {
-      "branch": "dev",
-      "prerelease": true,
-      "prerelease-type": "dev"
+      "branch": "dev"
     }
   ]
 }

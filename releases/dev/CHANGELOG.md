@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/awais-ahmad-ili/release-please-poc/compare/v1.3.0...v1.4.0) (2025-09-01)
+
+
+### Features
+
+* test dev 6 ([1ce02ff](https://github.com/awais-ahmad-ili/release-please-poc/commit/1ce02ff0e274fe59fcf2ce1bd552faf374dfad8b))
+
+
+### Bug Fixes
+
+* dev config ([527607b](https://github.com/awais-ahmad-ili/release-please-poc/commit/527607b5e8fb932374c9736e3639294dda581e1d))
+
 ## [1.3.0](https://github.com/awais-ahmad-ili/release-please-poc/compare/v1.2.0...v1.3.0) (2025-09-01)
 
 

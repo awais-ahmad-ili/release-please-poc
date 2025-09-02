@@ -1,7 +1,6 @@
 # 🚀 Release Automation POC
 
 A React TypeScript application demonstrating automated CI/CD pipeline with semantic versioning and release automation.
-1111111111111111111111
 
 ## ✨ Features
 

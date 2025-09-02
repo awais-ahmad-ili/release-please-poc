@@ -1,5 +1,6 @@
 {
   "prerelease": true,
+  "versioning": "prerelease",
   "prerelease-type": "alpha",
   "packages": {
     ".": {

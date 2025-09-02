@@ -1,10 +1,11 @@
-# .github/workflows/release-please-dev.yml
-name: Create Release PR - Dev
+name: Create Release PR
 
 on:
   workflow_dispatch: {} # manual trigger; pick branch in the UI
   push:
     branches:
+      - main
+      - staging
       - dev
 
 permissions:
@@ -21,11 +22,11 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
 
-      - name: Release Please - Dev
+      - name: Release Please
         id: rp
         uses: googleapis/release-please-action@v4
         with:
-          target-branch: dev
-          config-file: releases/dev/release-please-config.json
+          target-branch: ${{ github.ref_name }}
+          config-file: release-please-config.json
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
-          manifest-file: releases/dev/.release-please-manifest.json
+          manifest-file: releases/${{ github.ref_name }}/.release-please-manifest.json

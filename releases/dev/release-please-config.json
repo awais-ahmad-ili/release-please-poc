@@ -7,7 +7,7 @@
       "component": "dev",
       "changelog-path": "releases/dev/CHANGELOG.md",
       "prerelease": true,
-      "prerelease-type": "dev"
+      "prerelease-type": "alpha"
     }
   }
 }

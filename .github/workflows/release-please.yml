@@ -22,6 +22,23 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update config dynamically
+        run: |
+          BRANCH_NAME="${{ github.ref_name }}"
+          CHANGELOG_PATH="releases/$BRANCH_NAME/CHANGELOG.md"
+
+          # Update the config file with the correct changelog path
+          sed -i "s|CHANGELOG_PLACEHOLDER|$CHANGELOG_PATH|g" release-please-config.json
+
+          echo "Updated config for branch: $BRANCH_NAME"
+          echo "Changelog path: $CHANGELOG_PATH"
+          cat release-please-config.json
+
       - name: Release Please
         id: rp
         uses: googleapis/release-please-action@v4

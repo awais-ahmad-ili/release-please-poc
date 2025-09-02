@@ -3,28 +3,23 @@
     ".": {
       "release-type": "simple",
       "include-component-in-tag": true,
-      "package-name": "release-automation-poc"
+      "package-name": "release-automation-poc",
+      "changelog-path": "CHANGELOG_PLACEHOLDER"
     }
   },
   "branches": [
     {
-      "branch": "main",
-      "changelog-path": "releases/main/CHANGELOG.md",
-      "manifest-file": "releases/main/.release-please-manifest.json"
+      "branch": "main"
     },
     {
       "branch": "staging",
       "prerelease": true,
-      "prerelease-type": "sta",
-      "changelog-path": "releases/staging/CHANGELOG.md",
-      "manifest-file": "releases/staging/.release-please-manifest.json"
+      "prerelease-type": "sta"
     },
     {
       "branch": "dev",
       "prerelease": true,
-      "prerelease-type": "dev",
-      "changelog-path": "releases/dev/CHANGELOG.md",
-      "manifest-file": "releases/dev/.release-please-manifest.json"
+      "prerelease-type": "dev"
     }
   ]
 }

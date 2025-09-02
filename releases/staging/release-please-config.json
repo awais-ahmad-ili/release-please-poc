@@ -18,6 +18,7 @@
     ".": {
       "release-type": "simple",
       "package-name": "staging",
+      "include-component-in-tag": false,
       "changelog-path": "releases/staging/CHANGELOG.md"
     }
   }

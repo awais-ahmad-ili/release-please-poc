@@ -18,6 +18,7 @@
     ".": {
       "release-type": "simple",
       "package-name": "dev",
+      "include-component-in-tag": false,
       "changelog-path": "releases/dev/CHANGELOG.md"
     }
   }

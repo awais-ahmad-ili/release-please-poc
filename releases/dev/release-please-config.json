@@ -1,13 +1,13 @@
 {
+  "prerelease": true,
+  "prerelease-type": "alpha",
   "packages": {
     ".": {
       "release-type": "simple",
       "include-component-in-tag": true,
       "package-name": "dev",
       "component": "dev",
-      "changelog-path": "releases/dev/CHANGELOG.md",
-      "prerelease": true,
-      "prerelease-type": "alpha"
+      "changelog-path": "releases/dev/CHANGELOG.md"
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "include-component-in-tag": true,
+      "package-name": "sta",
+      "component": "sta",
+      "changelog-path": "releases/staging/CHANGELOG.md",
+      "prerelease": true,
+      "prerelease-type": "sta"
+    }
+  }
+}

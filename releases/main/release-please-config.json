@@ -1,0 +1,11 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "include-component-in-tag": true,
+      "package-name": "main",
+      "component": "main",
+      "changelog-path": "releases/main/CHANGELOG.md"
+    }
+  }
+}

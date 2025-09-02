@@ -15,6 +15,7 @@
     ".": {
       "release-type": "simple",
       "package-name": "prod",
+      "include-component-in-tag": false,
       "changelog-path": "releases/main/CHANGELOG.md"
     }
   }

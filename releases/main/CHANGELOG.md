@@ -1,5 +1,12 @@
 # Changelog - Main Branch
 
+## [1.6.1](https://github.com/awais-ahmad-ili/release-please-poc/compare/v1.6.0...v1.6.1) (2025-09-02)
+
+
+### Bug Fixes
+
+* fixed readme ([48b10b7](https://github.com/awais-ahmad-ili/release-please-poc/commit/48b10b77851460f8c70aad21a3ffb1c1ac624b13))
+
 ## [1.6.0](https://github.com/awais-ahmad-ili/release-please-poc/compare/v1.5.0...v1.6.0) (2025-09-02)
 
 

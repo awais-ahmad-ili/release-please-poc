@@ -1,10 +1,23 @@
 {
+  "prerelease": true,
+  "versioning": "prerelease",
+  "prerelease-type": "beta",
+  "changelog-sections": [
+    { "type": "feat", "hidden": false, "section": "Features" },
+    { "type": "fix", "hidden": false, "section": "Bug Fixes" },
+    { "type": "refactor", "hidden": false, "section": "Code Refactoring" },
+    { "type": "chore", "hidden": false, "section": "Miscellaneous Chores" },
+    {
+      "type": "build",
+      "hidden": false,
+      "section": "Build System and Dependencies"
+    },
+    { "type": "docs", "hidden": false, "section": "Docs" }
+  ],
   "packages": {
     ".": {
       "release-type": "simple",
-      "include-component-in-tag": true,
-      "package-name": "sta",
-      "component": "sta",
+      "package-name": "staging",
       "changelog-path": "releases/staging/CHANGELOG.md"
     }
   }

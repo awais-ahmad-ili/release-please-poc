@@ -4,6 +4,8 @@ A React TypeScript application demonstrating automated CI/CD pipeline with seman
 
 ## ✨ Features
 
+asdasdasd
+
 - **React 18** with **TypeScript** and **Vite**
 - **Automated Testing** with Vitest and React Testing Library
 - **CI/CD Pipeline** with GitHub Actions

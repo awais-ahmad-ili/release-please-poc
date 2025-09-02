@@ -1,5 +1,12 @@
 # Changelog - Dev Branch
 
+## [1.0.1-alpha.1](https://github.com/awais-ahmad-ili/release-please-poc/compare/dev-v1.0.1-alpha...dev-v1.0.1-alpha.1) (2025-09-02)
+
+
+### Bug Fixes
+
+* update all versioning configs ([59521d9](https://github.com/awais-ahmad-ili/release-please-poc/commit/59521d9ab23789af21b8a5cf9dea83725e75c023))
+
 ## [1.0.1-alpha](https://github.com/awais-ahmad-ili/release-please-poc/compare/dev-v1.0.0...dev-v1.0.1-alpha) (2025-09-02)
 
 
